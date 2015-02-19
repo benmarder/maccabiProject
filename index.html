@@ -4,14 +4,17 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="includes/style.css">
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		<title>index</title>
 	</head>
 	<body>
-		
 		<div id="wrapper">
 			<nav id="search_nav">
 				<form>
-					<input type="text" id="searchbox" value="search"><input type="image" src="images/search_img.jpg" id="searchbutton">
+					<input type="text" id="searchbox" placeholder="search">
+					<input type="image" src="images/search_img.jpg" id="searchbutton">
 				</form>
 				<ul>
 					<li id="date">1.1.15</li>
@@ -91,18 +94,38 @@
 					</section>
 					
 					<section id="registration_section">
-						<h3 id="join_us_h">JOIN US</h3><p class="star">*</p>
+						<h3 id="join_us_h">JOIN US</h3>
+							
 						<section id="registretion">
-							<form>
-								<input class="inputs"><label>First Name</label>
-								<input class="inputs"><label>Company</label><span class="star">*</span>
-								<input class="inputs"><label>E-mail</label><span class="star">*</span>
-								<input class="inputs"><label>phone</label><span class="star">*</span>
-								<input class="inputs"><label>Country<label><span class="star">*</span>
-								<input class="inputs"><label>Password</label><input id="continue" href="#">Continue</span>
+							<form id="join_us_form">
+								<p>*</p>
+								<label>
+									<input type="text" value="First Name">
+								</label>
+								<label>
+									<input type="text" value="Company">
+								</label>
+								<p>*</p>
+								<label>
+									<input type="email" value="E-mail">
+								</label>
+								<p>*</p>
+								<label>
+									<input type="tel" value="phone">
+								</label>
+								<p>*</p>
+								<select>
+									<option>Country</option>
+								</select>
+								<p>*</p>
+								<label>
+									<input type="password" placeholder="Password">
+								</label>
+								<input type="submit" value="Continue">
 							</form>
-							<p id="fees">Registration fees cost 10 $</p>
+								<p id="fees">Registration fees cost 10 $</p>
 						</section>
+						
 						<article id="garden_pic">
 						</article>
 						<article id="story_2011_sideway">
