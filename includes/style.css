@@ -318,15 +318,7 @@ header,footer,aside,nav,main,section{
 		width:175px;
 		height: 229px;
 	}
-	#low_nav {
-		background-color: #054e7f;
-		width: 692px;
-		height: 27px;
-		position: absolute;
-		bottom: 0px;
-		left: 175px;
-		padding-left: 83px;
-	}
+
 	#maccabi_logo{
 		position:absolute;
 		content: url("../images/maccabi_logo.png");
@@ -386,6 +378,7 @@ header,footer,aside,nav,main,section{
 		right: 228px;
 	}
 	#nav_button_sign, #nav_button_news, #nav_button_maccabiah{
+		color:#FFFFFF;
 		border:none;
 		position:absolute;
 		font-size: 12px;
@@ -499,12 +492,32 @@ header,footer,aside,nav,main,section{
 		font:12px arial;
 	}
 	
+	#low_nav {
+		background-color: #054e7f;
+		width: 692px;
+		height: 27px;
+		position: absolute;
+		bottom: 0px;
+		left: 175px;
+		padding-left: 83px;
+	}
+	
 	.low_menu {
+		color: #FFFFFF;
 		font-family: AAA,Arial,Verdana;
 		font-size: 14px;
 		background-color: #054e7f;
 		border: none;
-		padding: 7px 20px 4px 0px;
+		padding-right:20px;
+		color:#FFFFFF;
+	}
+	#low_nav li {
+		display:inline;
+	}
+	#low_nav ul {
+		position:relative;
+		list-style-type:none;
+		top:4px;	
 	}
 	.sentence2011{
 		padding:13px 0 0 0;
@@ -514,9 +527,7 @@ header,footer,aside,nav,main,section{
 		color:#333333;
 		font:21px arial;
 	}
-	.low_menu a {
-		color: #FFFFFF;
-	}
+
 	.star{
 		position:absolute;
 		right:0;
@@ -557,6 +568,16 @@ header,footer,aside,nav,main,section{
 	.clear{
 		clear:both;
 	}
+	#search_nav ul {
+		list-style-type:none;
+	}
+	#left_nav ul {
+		list-style-type:none;
+	}
+	#map ul {
+		list-style-type:none;
+	}
+
 }
 
 @media (max-width:590px) {
