@@ -512,7 +512,7 @@ background:url("../images/sea.jpg") no-repeat right top;
 	padding-left: 83px;
 }
 
-.low_menu {
+#low_menu li a {
 	color: #FFFFFF;
 	font-family: AAA,Arial,Verdana;
 	font-size: 14px;
@@ -560,16 +560,18 @@ background:url("../images/sea.jpg") no-repeat right top;
 	font:14px arial;
 	color:#4d4d4d; 
 }
-.left_nav_buttons {
+#left_nav_buttons li a {
+	display:block;
 	font-family: Arial;
 	font-size: 15px;
 	background-color: #054e7f;
 	margin-bottom: 2px;
+	color:#FFFFFF;
+	padding-left:15px;
 	
 }
 .left_nav_buttons a {
-	color:#FFFFFF;
-	padding-left:15px;
+	
 }
 .clear{
 	clear:both;
