@@ -592,6 +592,16 @@ background:url("../images/sea.jpg") no-repeat right top;
 	color:#4d4d4d;
 	font:11px arial;
 }
+
+#events_h1 {
+	background-color: #054e7f;
+	color:#ffffff;
+	font-family: Arial;
+	font-size: 18px;
+	margin-top: 32px;	
+	padding:10px 0px 9px 19px;
+	font-weight: normal;
+}
 @media (max-width:590px) {
 	#left_menu {
 		display: none;
