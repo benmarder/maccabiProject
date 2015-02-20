@@ -642,7 +642,7 @@ left:584px;/*53%*/
 #change_page a:visited {
 	color:#4d4d4d;
 }
-.event_img0,.event_img1,.event_img2,.event_img3,.event_img4,.event_img5,.event_img6 {
+#event_img0, #event_img1, #event_img2, #event_img3, #event_img4, #event_img5, #event_img6 {
 	position:absolute;
 	background:url("../images/events-garden.jpg") no-repeat;
 	width:204px;
@@ -650,23 +650,17 @@ left:584px;/*53%*/
 	right:-10px;
 	bottom:22px;	
 }
-.event_img1 {
-	background:url("../images/events-garden.jpg") no-repeat;
+#event_img1 {
+	background:url("../images/events-lagoon.jpg") no-repeat;
 }
-.event_img2 {
-	background:url("../images/events-garden.jpg") no-repeat;
+#event_img2 {
+	background:url("../images/events-cliff.jpg") no-repeat;
 }
-.event_img3 {
-	background:url("../images/events-garden.jpg") no-repeat;
+#event_img5 {
+	background:url("../images/events-lagoon.jpg") no-repeat;
 }
-.event_img4 {
-	background:url("../images/events-garden.jpg") no-repeat;
-}
-.event_img5 {
-	background:url("../images/events-garden.jpg") no-repeat;
-}
-.event_img6 {
-	background:url("../images/events-garden.jpg") no-repeat;
+#event_img6 {
+	background:url("../images/events-cliff.jpg") no-repeat;
 }
 @media (max-width:590px) {
 	#left_menu {
