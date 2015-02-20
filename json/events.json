@@ -1,12 +1,12 @@
 {
 	"events":[
-		{"eventName":"tafnit project no1 - israel","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"},
-		{"eventName":"tafnit project no2 - israel","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"},
-		{"eventName":"tafnit project no3 - usa","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"},
-		{"eventName":"tafnit project no4 - holland","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"},
-		{"eventName":"tafnit project no5 - spain","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"},
-		{"eventName":"tafnit project no6 - holland","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"},
-		{"eventName":"tafnit project no7 - usa","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/mockEventImageUrl.jpg"}
+		{"eventName":"tafnit project no1 - israel","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-garden.jpg"},
+		{"eventName":"tafnit project no2 - israel","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-lagoon.jpg"},
+		{"eventName":"tafnit project no3 - usa","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-cliff.jpg"},
+		{"eventName":"tafnit project no4 - holland","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-garden.jpg"},
+		{"eventName":"tafnit project no5 - spain","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-garden.jpg"},
+		{"eventName":"tafnit project no6 - holland","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-lagoon.jpg"},
+		{"eventName":"tafnit project no7 - usa","eventDate":"21.2.2012","eventDescription":"Bekeff Hadracha welcomes 260 Hanichim fdsfff fsfeffsyjhf","eventImageUrl":"../images/events-cliff.jpg"}
 	]
 
 }
