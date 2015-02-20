@@ -14,12 +14,12 @@ header{
 }
 body {
 	background:url("../images/gradient.jpg") repeat-x;
-background-color: #ffffff;
+	background-color: #ffffff;
 }
 footer {
 	background-color:#ffffff;
 	position:fixed;
-	z-index:1;
+	z-index:2;
 	bottom:0;
 	float:left;
 	margin:31px 0px 0px 26px;/*2.663934%*/
