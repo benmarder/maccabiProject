@@ -605,7 +605,9 @@ left:584px;/*53%*/
 	position:relative;
 	height: 172px;
 }
-
+li a:hover {
+	opacity:0.4;	
+}
 .event_name {
 	display: inline;
 	font-family: Arial;
