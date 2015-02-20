@@ -4,8 +4,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="includes/style.css">
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="includes/eventsFunctions.js"></script>
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		<title>events</title>
 	</head>
@@ -47,7 +47,7 @@
 				</section>
 				<section id="left_nav">
 					<ul id="left_nav_buttons">
-						<li><a href="index.html">Events</a> </li>
+						<li><a id="events" href="events.html">Events</a> </li>
 						<li><a href="index.html">Maccabiah</a> </li>
 						<li><a href="index.html">Download info </a></li>
 						<li><a href="index.html">Tafnit</a> </li>
@@ -75,6 +75,14 @@
 			</aside>
 			<main id="main_section">
 				<h1 id="events_h1"> EVENTS </h1>
+				<p id="change_page">
+					<a href="events.html"><img src="images/left_arrow_events.jpg"></a>&nbsp;&nbsp;
+					<a href="events.html">1</a>..
+					<a id="current_page" href="events.html">2</a>..
+					<a href="events.html">3</a>..
+					<a href="events.html">4</a>&nbsp;&nbsp;
+					<a href="events.html"><img src="images/right_arrow_events.jpg"></a>
+				</p>
 			</main>
 			<footer>
 				<section id="forum">

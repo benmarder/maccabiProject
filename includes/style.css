@@ -199,7 +199,7 @@ select{
 	left:277px;
 	top:418px;
 	background:url("../images/cliff.jpg");
-width:240px;/*43.79562%*/
+	width:240px;/*43.79562%*/
 	height:266px;
 }
 #sentence2012,.sentence2011{
@@ -357,8 +357,8 @@ left:584px;/*53%*/
 #searchbox {
 	position:absolute;
 	padding-left:10px; /*1.02459%*/
-margin-left:2px;/*0.204918%*/
-left:26px; /*2.663934%*/
+	margin-left:2px;/*0.204918%*/
+	left:26px; /*2.663934%*/
 	font-family: Arial;
 	font-size: 12px;
 	color:#ffffff;
@@ -460,7 +460,7 @@ left:26px; /*2.663934%*/
 #article_whith_pic2{
 	height:159px;
 	margin-top:16px;
-background:url("../images/sea.jpg") no-repeat right top;
+	background:url("../images/sea.jpg") no-repeat right top;
 	border:none;
 }
 .sentence2011{
@@ -596,9 +596,77 @@ background:url("../images/sea.jpg") no-repeat right top;
 	color:#ffffff;
 	font-family: Arial;
 	font-size: 18px;
-	margin-top: 32px;	
+	margin: 32px 0px 33px 0px;	
 	padding:10px 0px 9px 19px;
 	font-weight: normal;
+}
+.event_section {
+	border-top:1px solid #cdcdcd; 
+	position:relative;
+	height: 172px;
+}
+
+.event_name {
+	display: inline;
+	font-family: Arial;
+	font-size: 19px;
+	font-weight: bold;
+}
+.event_date {
+	display: inline;
+	font-family: Arial;
+	font-size: 18px;
+}
+.event_data {
+	position:absolute;
+	font-family: Arial;
+	font-size: 14px;
+	display: inline;
+	max-width: 495px;
+	top:54px;
+}
+.event_text {
+	padding-top:22px;	
+}
+#events {
+	background-color: #f7931e;	
+}
+#change_page{
+	position:absolute;
+	bottom:125px;
+	color:#4d4d4d;
+	left:265px;
+	font-family:Arial;
+	font-size: 21px;
+}
+#change_page a:visited {
+	color:#4d4d4d;
+}
+.event_img0,.event_img1,.event_img2,.event_img3,.event_img4,.event_img5,.event_img6 {
+	position:absolute;
+	background:url("../images/events-garden.jpg") no-repeat;
+	width:204px;
+	height:122px;
+	right:-10px;
+	bottom:22px;	
+}
+.event_img1 {
+	background:url("../images/events-garden.jpg") no-repeat;
+}
+.event_img2 {
+	background:url("../images/events-garden.jpg") no-repeat;
+}
+.event_img3 {
+	background:url("../images/events-garden.jpg") no-repeat;
+}
+.event_img4 {
+	background:url("../images/events-garden.jpg") no-repeat;
+}
+.event_img5 {
+	background:url("../images/events-garden.jpg") no-repeat;
+}
+.event_img6 {
+	background:url("../images/events-garden.jpg") no-repeat;
 }
 @media (max-width:590px) {
 	#left_menu {
