@@ -173,9 +173,7 @@ select{
 	width:744px;/*76.229508%*/
 	min-height:1559px;
 }
-#youtube_video{
-	content:url("../images/video.jpg"); 
-}
+
 #video{
 	margin-top:33px;
 	height:385px;
@@ -607,3 +605,38 @@ background:url("../images/sea.jpg") no-repeat right top;
 		display: none;
 	}
 }
+
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }

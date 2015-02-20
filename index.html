@@ -4,10 +4,16 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="includes/style.css">
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			`<script src="includes/responsiveslides.min.js"></script>
 
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		<title>index</title>
+		<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -78,7 +84,11 @@
 						
 						<article id="video">
 							<h1 id ="sentence2012">Wellcome to Tafnit Program's 2012</h1>
-							<img id="youtube_video">
+							<ul class="rslides">
+							  <li><img src="images/Maccabiah flag presentation.jpg" alt=""></li>
+							  <li><img src="images/Maccabiah-Israel.jpg" alt=""></li>
+							  <li><img src="images/manhattan.jpg" alt=""></li>
+							</ul>
 						</article>
 						
 						<article id="story_2011_prim">
