@@ -591,7 +591,7 @@ left:584px;/*53%*/
 	font:11px arial;
 }
 
-#events_h1 {
+#events_h1, #country_h1{
 	background-color: #054e7f;
 	color:#ffffff;
 	font-family: Arial;
@@ -600,6 +600,7 @@ left:584px;/*53%*/
 	padding:10px 0px 9px 19px;
 	font-weight: normal;
 }
+
 .event_section {
 	border-top:1px solid #cdcdcd; 
 	position:relative;
@@ -663,6 +664,86 @@ li a:hover {
 }
 #event_img6 {
 	background:url("../images/events-cliff.jpg") no-repeat;
+}
+#country_h1 {
+	margin: 32px 0px 35px 0px;
+}
+#info_with_flag {
+	width:201px;
+	height: 734px;
+	float:right;
+	border:1px solid #aeaeae;
+	position: relative;
+}
+#country_flag {
+	position: absolute;
+	top:29px;
+	left:78px;	
+}
+#country_description {
+	position:absolute;
+	font-family: Arial;
+	font-size: 12px;
+	color:#4d4d4d;
+	top:87px;
+	line-height:170%;
+	padding: 0px 21px 0px 17px;
+}
+#main_img_country_section {
+	float:left;
+	border-top:1px solid #aeaeae;
+	position: relative;	
+	width: 512px;
+	height: 734px;
+}
+#main_country_wellcome {
+	font-family: Arial;
+	font-size: 17px;
+	color:#333333;
+	position: absolute;
+	top:11px;
+}
+#country_main_image {
+	position: absolute;
+	top:38px;
+}
+#four_element_country {
+	position:absolute;
+	top:377px;
+	width:512px;
+}
+#upper_left {
+	float:left;	
+}
+#upper_right {
+	float:left;
+	width:225px;
+	margin-left: 24px;
+}
+
+.h2_four_element {
+	font-family: Arial;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 150%;
+}
+#four_element_info {
+	font-size:14px;
+	font-family: Arial;
+	color: #4d4d4d;
+	line-height: 135%;
+	width: 230px;
+}
+#lower_left {
+	float:left;
+	width:225px;
+	margin-top:34px;
+}
+#lower_right {
+	float: right;
+	margin-top:34px;
+	padding-bottom: 28px;
+	border-bottom: 1px solid #aeaeae;
 }
 @media (max-width:590px) {
 	#left_menu {
