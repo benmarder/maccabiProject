@@ -6,11 +6,10 @@
 header,footer,aside,nav,main,section{
 	display:block;
 }
-@media (min-width:591px) {
+
 header{
 	position:relative;
-	background-color: #f7931e;
-	height: 154px;
+	background-color: #f7931e;		height: 154px;
 }
 body {
 	background:url("../images/gradient.jpg") repeat-x;
@@ -749,6 +748,7 @@ li a:hover {
 	#left_menu {
 		display: none;
 	}
+	
 }
 
 
@@ -785,3 +785,4 @@ li a:hover {
   width: 100%;
   border: 0;
   }
+  

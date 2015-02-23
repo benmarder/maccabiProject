@@ -38,9 +38,7 @@ $(document).ready(function() {
 								"<img src="+currentFlagUrl+" id='country_flag'>"+
 								"<p id='country_description'>"+data.countries[currentCountry-1].description+"</p>"+
 							"</section>"
-							
-							
-			
+				
 			);
 								
 			
