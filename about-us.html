@@ -1,23 +1,33 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="includes/style.css">
-		<title>about us</title>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script src="includes/responsiveslides.min.js"></script>
+
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<title>index</title>
 	</head>
 	<body>
 		<div id="wrapper">
-		<nav id="search_nav">
-				<input type="text" id="searchbox" value="search"><input type="image" src="images/search_img.jpg" id="searchbutton">
-				<p id="date">1.1.15</p>
-				<a id="nav_button_sign" href="index.html">Sign In</a>
-				<a id="nav_button_news" href="index.html">Newsletter</a>
-				<a id="nav_button_maccabiah" href="index.html">maccabiah</a>
-				<p id="month">
+			<nav id="search_nav">
+				<form>
+					<input type="text" id="searchbox" placeholder="search">
+					<input type="image" src="images/search_img.jpg" id="searchbutton">
+				</form>
+				<ul>
+					<li id="date">1.1.15</li>
+					<li><a id="nav_button_sign" href="index.html">Sign In</a></li>
+					<li><a id="nav_button_news" href="index.html">Newsletter</a></li>
+					<li><a id="nav_button_maccabiah" href="index.html">maccabiah</a></li>
+					<p id="month">
 					<a href="#">&laquo;</a>
 					&nbsp;&nbsp; February 2010&nbsp;&nbsp;
-					<a href="#">&raquo;</a>
+					<a href="#">&raquo;</a></li>
 				</p>
+				</ul>
 			</nav>
 			
 			<header>
@@ -37,21 +47,25 @@
 					<p id="big_read_more"><a href="index.html">Read More</a></p>
 				</section>
 				<section id="left_nav">
-					<p class="left_nav_buttons"><a href="index.html">Events</a> </p>
-					<p class="left_nav_buttons"><a href="index.html">Maccabiah</a> </p>
-					<p class="left_nav_buttons"><a href="index.html">Download info </a></p>
-					<p class="left_nav_buttons"><a href="index.html">Tafnit</a> </p>
+					<ul id="left_nav_buttons">
+						<li><a href="events.html">Events</a> </li>
+						<li><a href="index.html">Maccabiah</a> </li>
+						<li><a href="index.html">Download info </a></li>
+						<li><a href="index.html">Tafnit</a> </li>
+					</ul>
 				</section>
 				<section id="map">
 					<p id="find_us">WHERE TO FIND US</p>
-					<p id="country1"><a href="index.html">Israel</a></p>
-					<p id="country2"><a href="index.html">U.S.A</a></p>
-					<p id="country3"><a href="index.html">Spain</a></p>
-					<p id="country4"><a href="index.html">Holland</a></p>
-					<p id="country5"><a href="index.html">Israel</a></p>
-					<p id="country6"><a href="index.html">U.S.A</a></p>
-					<p id="country7"><a href="index.html">Spain</a></p>
-					<p id="country8"><a href="index.html">Holland</a></p>
+					<ul>
+						<li id="country1"><a href="index.html">Israel</a></li>
+						<li id="country2"><a href="index.html">U.S.A</a></li>
+						<li id="country3"><a href="index.html">Spain</a></li>
+						<li id="country4"><a href="index.html">Holland</a></li>
+						<li id="country5"><a href="index.html">Israel</a></li>
+						<li id="country6"><a href="index.html">U.S.A</a></li>
+						<li id="country7"><a href="index.html">Spain</a></li>
+						<li id="country8"><a href="index.html">Holland</a></li>
+					</ul>
 				</section>
 				<section id="event_info">
 					<p id="new_event">NEW EVENT</p>
@@ -93,13 +107,15 @@
 					</section>
 				</section>
 				<section id="low_nav">
-					<button class="low_menu"><a href="about-us.html">About us</a></button>
-					<button class="low_menu"><a href="index.html">Prpgrams</a></button>
-					<button class="low_menu"><a href="index.html">News</a></button>	
-					<button class="low_menu"><a href="index.html">Events</a></button>
-					<button class="low_menu"><a href="index.html">Contact Us</a></button>
-					<button class="low_menu"><a href="index.html">Post</a></button>
-					<button class="low_menu"><a href="index.html">Wall</a></button>
+					<ul id="low_menu">
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="index.html">Prpgrams</a></li>
+						<li><a href="index.html">News</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="index.html">Contact Us</a></li>
+						<li><a href="index.html">Post</a></li>
+						<li><a href="index.html">Wall</a></li>
+					</ul>
 				</section>
 				<div class="clear">
 				</div>
