@@ -26,8 +26,39 @@ $(document).ready(function() {
 							"<section id='info_with_flag'>"+
 								"<img src="+currentCountry.flagUrl+" id='country_flag'>"+
 								"<p id='country_description'>"+currentCountry.description+"</p>"+
-							"</section>"	
+							"</section>"+
+							"<div class='clear'></div>"+
+							"<section id='projects_list_country'>"+
+								"<h1 id='projectList_country_h1'>PROJECTS LIST</h1>"+
+							"</section>"			
 			);
 							
 	});
+	$.getJSON("./json/events.json",function(data) { //insert dynamic data from json
+		var currentImgId;
+		for (var i=0 ; i<=3 ; i++) {
+			currentImgId = "event_img"+i;
+			$("main").append("<section class='event_section'>"+
+								"<section id="+currentImgId+"></section>"+
+								"<section class='event_text'>"+
+									"<p class='event_name'>"+
+										data.events[i].eventName+
+									"</p>"+
+									"<p class='event_date'>"
+										+data.events[i].eventDate+
+									"</p><br>"+
+									"<p class='event_data'>"
+										+data.events[i].eventDescription+
+									"</p>"+
+								"</section>"+
+							"</section>"
+
+							
+							);
+		}
+	});
+	$("main").append("<section id='people_section'>red section</section>"	
+	
+					);
+	
 });

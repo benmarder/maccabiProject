@@ -745,6 +745,23 @@ li a:hover {
 	padding-bottom: 28px;
 	border-bottom: 1px solid #aeaeae;
 }
+#projectList_country_h1 {
+	background-color: #b3b3b3;
+	color:#ffffff;
+	font-family: Arial;
+	font-size: 18px;
+	margin: 32px 0px 33px 0px;	
+	padding:10px 0px 9px 19px;
+	font-weight: normal;
+}
+
+#people_section {
+	position:absolute;
+	bottom:100px;
+	padding-top: 9px;
+	border-top: 1px solid #333333;
+	margin-top: 29px;
+}
 @media (max-width:590px) {
 	#left_menu {
 		display: none;
