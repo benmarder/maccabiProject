@@ -727,7 +727,8 @@ li a:hover {
 	line-height: 150%;
 }
 #four_element_info {
-	font-size:14px;
+	font-size:13px;
+	padding-top:4px;
 	font-family: Arial;
 	color: #4d4d4d;
 	line-height: 135%;
