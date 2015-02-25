@@ -210,7 +210,7 @@ textarea{
 	background-color: #054e7f;
 	height: 546px;
 }
-main, #main_section_country{
+main{
 	position:relative;
 	float:left;
 	/*width:744px;*/
@@ -334,6 +334,9 @@ main, #main_section_country{
 	font-family: Arial;
 	font-size: 12px;
 	background: url("../images/arrow.jpg") no-repeat;
+}
+#countries li a:hover{
+	opacity:0.5;
 }
 #countries li{
 	margin-top:5px;
@@ -467,6 +470,10 @@ main, #main_section_country{
 	/*left:73px;*/
 	left:41.714286%;
 }
+#forum_text:hover{
+	opacity:0.5;
+}
+
 #flags {
 	position:relative;
 	float:left;
