@@ -28,9 +28,10 @@ body {
 	/*margin:31px 0px 0px 26px;*/
 	/*margin-left:1.9241748%;*/
 	height:91px;
+	padding-top:30px;
 	border-top:1px solid #cdcdcd;
 }
-#country_footer {
+#footer {
 	/*width:76.229508%;*/
 	width:774px;
 	right:304px;
@@ -233,6 +234,9 @@ main{
 #main_section_country {
 	min-height:2127px;
 }
+#main_section_index {
+	min-height:1582px;
+}
 
 #video{
 	margin-top:33px;
@@ -370,6 +374,14 @@ main{
 #azrieli {
 	background: url("../images/azrieli.jpg");
 	height: 229px;
+	/*padding-bottom: 32px;*/
+	border-bottom:1px solid #cdcdcd;
+}
+#azrieli_index {
+	background: url("../images/azrieli.jpg");
+	height: 229px;
+	/*padding-bottom:32px;
+	border-bottom: 1px solid #cdcdcd;*/
 }
 
 #maccabi_logo{
@@ -460,7 +472,7 @@ main{
 #nav_button_maccabiah {
 	right:1px;
 }
-#forum {
+#forum, #index_forum {
 	/*width:175px;*/
 	/*width:17.930328%;*/
 	position:relative;
@@ -470,14 +482,7 @@ main{
 	margin-top:60px;
 	border-top:1px solid #cdcdcd;
 }
-#country_forum {
-	/*width:175px;*/
-	/*width:17.930328%;*/
-	position:relative;
-	background-color:#054e7f;
-	height:91px;
-	bottom:-19px;
-	margin-top:60px;
+#index_forum {
 	border-top:1px solid #cdcdcd;
 }
 #forum_icon {
@@ -504,11 +509,12 @@ main{
 	/*width:775px;*/
 	width:79.405738%;
 	height:64px;
+	padding
 }
 #holland,#usa,#israel,#spain{
 	position:absolute;
 	/*width:46px;*/
-	width:5.935484%;
+	width:7.8443242%;
 	height:30px;
 }
 #holland {
