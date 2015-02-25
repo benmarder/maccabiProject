@@ -8,7 +8,7 @@ $(document).ready(function() {
 			currentImgId = "event_img"+i;
 			$("main").append("<section class='event_section'>"+
 								"<section id="+currentImgId+"></section>"+
-								"<section class='event_text'>"+
+								"<section>"+
 									"<p class='event_name'>"+
 										data.events[i].eventName+
 									"</p>"+

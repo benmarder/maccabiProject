@@ -176,12 +176,19 @@ a{
 	float:left;
 	background-color: #FFFFFF;
 }
-#main_section{
+#blue_background {
+	background-color: #054e7f;
+	height: 546px;
+}
+#main_section, #main_section_country{
 	position:relative;
 	float:left;
 	/*width:744px;*/
 	width:76.229508%;
-	min-height:1559px;
+
+}
+#main_section_country {
+	min-height:2127px;
 }
 
 #video{
@@ -348,6 +355,9 @@ a{
 	/*left:49px;*/
 	left:5.020492%;
 	bottom:5px;
+}
+#month > a {
+	text-decoration: none;
 }
 #searchbox {
 	position:absolute;
@@ -608,10 +618,25 @@ a{
 	font-weight: normal;
 }
 
+#projectList_country_h1 {
+	background-color: #b3b3b3;
+	color:#ffffff;
+	font-family: Arial;
+	font-size: 18px;
+	margin: 32px 0px 33px 0px;	
+	padding:10px 0px 9px 19px;
+	font-weight: normal;
+}
+
 .event_section {
 	border-top:1px solid #cdcdcd; 
 	position:relative;
 	height: 172px;
+}
+.event_section_country {
+	position:relative;
+	height: 172px;
+	border-bottom:1px solid #cdcdcd; 
 }
 li a:hover {
 	opacity:0.4;	
@@ -653,11 +678,12 @@ li a:hover {
 	color:#4d4d4d;
 }
 #event_img0, #event_img1, #event_img2, #event_img3, #event_img4, #event_img5, #event_img6 {
+	display:block;
 	position:absolute;
 	background:url("../images/events-garden.jpg") no-repeat;
 	width:204px;
 	height:122px;
-	right:-10px;
+	right:0px;
 	bottom:22px;	
 }
 #event_img1 {
@@ -753,22 +779,49 @@ li a:hover {
 	padding-bottom: 28px;
 	border-bottom: 1px solid #aeaeae;
 }
-#projectList_country_h1 {
-	background-color: #b3b3b3;
-	color:#ffffff;
-	font-family: Arial;
-	font-size: 18px;
-	margin: 32px 0px 33px 0px;	
-	padding:10px 0px 9px 19px;
-	font-weight: normal;
-}
 
 #people_section {
+	margin-top: 33px;
+	height:284px;
+	background-color: #959595;
+}
+.initiator {
+	position:relative;
+	float:left;
+	width: 196px;
+	height: 208px;
+	padding: 0px 31px 0px 20px;
+	border-left: 1px solid #aeaeae;
+}
+.people_country1 {
+	content:url("../images/michal.jpg");
+}
+.people_country2 {
+	content:url("../images/hadar_f.jpg");
+}
+.people_country3 {
+	content:url("../images/ofer.jpg");
+}
+.people_name {
+	font-size:12px;
+	font-family: Arial;
+	font-weight: bold;
+	color:#ffffff;
+	padding: 12px 0px 12px 0px;
+}
+.initiator > a{
 	position:absolute;
-	bottom:100px;
-	padding-top: 9px;
-	border-top: 1px solid #333333;
-	margin-top: 29px;
+	font-family: Arial;
+	font-size: 11px;
+	color:#ffffff;
+	text-decoration: underline;
+	bottom:10px;
+}
+.people_info {
+	width:199px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #e6e6e6;
 }
 @media (max-width:590px) {
 	#left_menu {
