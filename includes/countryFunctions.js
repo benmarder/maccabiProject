@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$.getJSON("./json/countries.json",function(data) { //insert dynamic data from json
 		var currentCountry = data.countries[window.location.search.match(/\d+/)-1];
+		var currentProjectImageUrl = currentCountry.projectsList[0].projectImageUrl;
 		//var currentFlagUrl = data.countries[currentCountry].flagUrl;
 			$("main").append("<h1 id='country_h1'>"+currentCountry.home+" PAGE</h1>"+
 							"<section id='main_img_country_section'>"+
@@ -30,35 +31,23 @@ $(document).ready(function() {
 							"<div class='clear'></div>"+
 							"<section id='projects_list_country'>"+
 								"<h1 id='projectList_country_h1'>PROJECTS LIST</h1>"+
+								"<section class='event_section'>"+
+									"<img src="+currentProjectImageUrl+" id='country_project_img'>"+
+									"<section class='event_text'>"+
+										"<p class='event_name'>"+
+											currentCountry.projectsList[0].projectName+
+										"</p>"+
+										"<p class='event_date'>"
+											+currentCountry.projectsList[0].projectDate+
+										"</p><br>"+
+										"<p class='event_data'>"
+											+currentCountry.projectsList[0].projectInfo+
+										"</p>"+
+									"</section>"+	
+								"</section>"+
 							"</section>"			
 			);
 							
 	});
-	$.getJSON("./json/events.json",function(data) { //insert dynamic data from json
-		var currentImgId;
-		for (var i=0 ; i<=3 ; i++) {
-			currentImgId = "event_img"+i;
-			$("main").append("<section class='event_section'>"+
-								"<section id="+currentImgId+"></section>"+
-								"<section class='event_text'>"+
-									"<p class='event_name'>"+
-										data.events[i].eventName+
-									"</p>"+
-									"<p class='event_date'>"
-										+data.events[i].eventDate+
-									"</p><br>"+
-									"<p class='event_data'>"
-										+data.events[i].eventDescription+
-									"</p>"+
-								"</section>"+
-							"</section>"
-
-							
-							);
-		}
-	});
-	$("main").append("<section id='people_section'>red section</section>"	
-	
-					);
 	
 });
