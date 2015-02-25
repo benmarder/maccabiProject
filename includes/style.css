@@ -107,7 +107,7 @@ a{
 	width:98.039216%;
 	border:none;
 	outline:none;
-	padding:0 0 8px 1.960784%;
+	margin:0 0 8px 1.960784%;
 	color:#1a1a1a;
 	font:12px arial;
 }
@@ -115,9 +115,9 @@ a{
 	font:22px arial;
 	padding-right: 
 }
-select{
-	padding-left:0!important;
-	width:auto!important;
+#join_us_form>select{
+	width:70px!important;
+	margin-left:0!important;
 }	
 
 #join_us_form>input[type=submit]{
@@ -126,7 +126,7 @@ select{
 	cursor: pointer;
 	background:none;
 	right:0;
-	bottom:0;
+	top:150px;
 	color:#f7931e;
 	padding:0;
 	font:12px bold arial; 
@@ -825,4 +825,18 @@ li a:hover {
   width: 100%;
   border: 0;
   }
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #000000;
+}
   
