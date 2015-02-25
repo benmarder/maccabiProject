@@ -9,20 +9,22 @@ header,footer,aside,nav,main,section{
 
 header{
 	position:relative;
-	background-color: #f7931e;		height: 154px;
+	background-color: #f7931e;
+	height: 154px;
 }
 body {
 	background:url("../images/gradient.jpg") repeat-x;
 	background-color: #ffffff;
 }
+
 footer {
+	width:inherit;
 	background-color:#ffffff;
 	position:fixed;
 	z-index:2;
 	bottom:0;
-	float:left;
-	margin:31px 0px 0px 26px;/*2.663934%*/
-	width:950px;/*97.336066%*/
+	/*margin:31px 0px 0px 26px;*/
+	margin-left:1.9241748%;
 	height:91px;
 	padding-top:29px;
 	border-top:1px solid #cdcdcd;
@@ -44,41 +46,42 @@ a{
  	font-weight: normal;
 }
 #wrapper {
-	width:976px;/*69.664525%*/
+	position:relative;
+	width:976px;
 	margin: 0 auto;
 	background-color: #ffffff;
 }
-#continuum_font {
+#m_head_line,#head_line{
 	position:absolute;
-	font-family: DDD,Arial,Verdana;
-	font-size: 41px;
-	top:90.3px;
-	left:354px;/*38.44444%*/
-	color:#ffffff;
-	border-top: 1px solid #fbc98e;
-}
-#continuum_font_m {
-	position:absolute;
-	font-family: DDD,Arial,Verdana;
-	font-size: 41px;
-	left:323px; /*36.5%*/
+	font:  normal 41px DDD,Arial,Verdana;
+	/*left:323px;*/
+	left:33.094262%;
 	top:90.5px;
 	color:#ffffff;
 }
+#head_line {
+	top:90.3px;
+	/*left:354px;/*38.44444%*/
+	left:36.270492%;
+	border-top: 1px solid #fbc98e;
+}
+
 #big_t {
 	color:#FFFFFF;
 	position: absolute;
 	font-family: Arial;
 	font-size: 26px;
 	top: 62px;
-	left: 13px;
+	/*left: 13px;*/
+	left: 7.428571%;
 }
 #the_maccabi {
 	color:#FFFFFF;
 	position: absolute;
 	font-family: Arial;
 	font-size: 12px;
-	left: 28px;
+	/*left: 28px;*/
+	left:16%;
 	top: 74px;
 }
 #rest_sentence {
@@ -87,9 +90,11 @@ a{
 	position: absolute;
 	font-family: Arial;
 	font-size: 12px;
-	left: 13px;
+	/*left: 13px;*/
+	left:7.428571%;
 	top:89px;
-	padding-right: 19px;
+	/*padding-right: 19px;*/
+	padding-right: 10.857143%;
 }
 #join_us_h{
 	padding-bottom:22px;
@@ -98,10 +103,11 @@ a{
 	color:#000000;
 }
 #join_us_form input	,#join_us_form>select{
-	width:200px;
+	/*width:200px;*/
+	width:98.039216%;
 	border:none;
 	outline:none;
-	padding:0 0 8px 4px;
+	padding:0 0 8px 1.960784%;
 	color:#1a1a1a;
 	font:12px arial;
 }
@@ -129,9 +135,10 @@ select{
 #registration_section{
 	position:absolute;
 	margin-top:33px;
-	top:0%;
-	right:0%;
-	width:204px;/*27.27419355%*/
+	top:0;
+	right:0;
+	/*width:204px;/*27.27419355%*/
+	width:27.27419355%;
 	height:651px;
 }
 #registretion{
@@ -152,7 +159,8 @@ select{
 	background-color:#b3b3b3;
 	color:#ffffff;
 	font:18px arial;
-	padding-left:14px;
+	/*padding-left:14px;*/
+	padding-left:1.88172%;
 }
 #people{
 	background:url("../images/gray_pattern.jpg");
@@ -161,15 +169,18 @@ select{
 }
 
 #left_menu {
-	width:175px;
-	margin:0 31px 0 26px;/*0% 3.17623% 0% 2.663934%*/
+	/*width:175px;*/
+	width:17.930328%;
+	/*margin:0 31px 0 26px;*/
+	margin:0% 3.17623% 0% 2.663934%;
 	float:left;
 	background-color: #FFFFFF;
 }
 #main_section{
 	position:relative;
 	float:left;
-	width:744px;/*76.229508%*/
+	/*width:744px;*/
+	width:76.229508%;
 	min-height:1559px;
 }
 
@@ -178,31 +189,33 @@ select{
 	height:385px;
 }
 #wellcome_section{
-	width:517px;/*69.489247%*/
+	/*width:517px;*/
+	width:69.489247%;
 	height:651px;		
 }
 #story_2011_prim{
-	width:277px;/*53.578337%*/
+	/*width:277px;*/
+	width:53.578337%;
 	height:266px;
 	background-color:#ffffff; 
 }
 #story_2011_sideway{
 	margin-top:41px;
-	width:204px;
 	height:264px;
 	background-color:#ffffff; 
 }
 
 #cliff_image{
 	position:absolute;
-	left:277px;
+	/*left:277px;*/
+	left:37.231183%;
 	top:418px;
 	background:url("../images/cliff.jpg");
-	width:240px;/*43.79562%*/
+	/*width:240px;*/
+	width:32.258065%;
 	height:266px;
 }
 #sentence2012,.sentence2011{
-	width:514px;
 	padding:7px 0px 7px 0px;	
 	border-top:1px solid #cccccc;
 	font: 17px arial;
@@ -217,13 +230,13 @@ select{
 	color:#FFFFFF;
 	font-family: Arial;
 	font-size: 18px;
-	padding: 10px 0px 9px 19px;
+	/*padding: 10px 0px 9px 19px;*/
+	padding:10px 0 9px 2.553763%;
 	margin: 32px 0px 33px 0px;
 	font-weight: normal;
 }
 #we_believe {
 	line-height:160%;
-	width: 742px;
 	height: 283px;
 	color:#4D4D4D;
 	font-size: 13px;
@@ -233,7 +246,6 @@ select{
 }
 #business {
 	background:url("../images/mbf_logo.jpg") no-repeat;
-	width:175px;
 	height: 270px;
 	background-color: #054e7f;
 	position: relative;
@@ -245,14 +257,14 @@ select{
 	position: absolute;
 	font-family: Arial;
 	font-size: 15px;
-	left: 13px;	
+	/*left: 13px;*/
+	left:7.428571%;
 	bottom: 7px;
 }
 #big_read_more a {
 	color:#ffffff;
 }
 #left_nav {
-	width: 174px;
 	height: 75px;
 	background-color: #FFFFFF;
 	padding-bottom: 34px;
@@ -260,7 +272,6 @@ select{
 
 #map {
 	background:url("../images/map.jpg") no-repeat;
-	width:175px;
 	height: 670px;
 	background-color: #054e7f;
 	position: relative;
@@ -273,47 +284,30 @@ select{
 	font-weight: bold;
 	color:#FFFFFF;
 	bottom:337px;
-	left: 14px;
+	/*left:14px;*/
+	left:8%;
 }
 #new_event{
-	top: 70px;
-	left: 12px;
+	top:70px;
 }
-#country1,#country2,#country3,#country4,#country5,#country6,#country7,#country8 {
-	position:absolute;
+#countries li a{
+	color:#FFFFFF;
+	opacity:0.9;
+	padding-left:50%;
 	font-family: Arial;
 	font-size: 12px;
 	background: url("../images/arrow.jpg") no-repeat;
-	top:364px;
-	left: 10px;
 }
-#country2 {
-	top:382px;
+#countries li{
+	margin-top:5px;
 }
-#country3 {
-	top:402px;
+#countries{
+	margin-left:7%;
+	position:absolute;
+	top:362px;
 }
-#country4 {
-	top: 422px;
-}
-#country5 {
-	top: 441px;
-}
-#country6 {
-	top: 459px;
-}
-#country7 {
-	top: 477px;
-}
-#country8 {
-	top: 496px;
-}
-#country1 a,#country2 a,#country3 a,#country4 a,#country5 a,#country6 a,#country7 a,#country8 a {
-	color:#FFFFFF;
-	padding-left: 32px;
-}
+
 #event_info {
-	width: 175px;
 	height: 93px;
 	background: url("../images/info_icon.jpg") no-repeat;
 	background-color: #054e7f;
@@ -322,20 +316,21 @@ select{
 
 #azrieli {
 	background: url("../images/azrieli.jpg");
-	width:175px;
 	height: 229px;
 }
 
 #maccabi_logo{
 	position:absolute;
 	content: url("../images/maccabi_logo.png");
-left:256px; /*32.334047%*/
-top:25px;/*16.23%*/	
+	/*left:256px;*/
+	left:26.229508%;
+	top:25px;	
 }
 #mbf {
 	position: absolute;
 	content: url("../images/m.b.f.jpg");
-left:584px;/*53%*/
+	/*left:584px;*/
+	left:59.836066%;
 	top:34px;
 }
 
@@ -348,16 +343,20 @@ left:584px;/*53%*/
 }
 #month{
 	font:12px arial;
-	color: #054e7f;
+	color:#054e7f;
 	position: absolute;
-	left:49px;
-	bottom: 5px;
+	/*left:49px;*/
+	left:5.020492%;
+	bottom:5px;
 }
 #searchbox {
 	position:absolute;
-	padding-left:10px; /*1.02459%*/
-	margin-left:2px;/*0.204918%*/
-	left:26px; /*2.663934%*/
+	/*padding-left:10px;*/
+	padding-left:1.02459%;
+	/*margin-left:2px;*/
+	margin-left:0.204918%;
+	/*left:26px;*/
+	left:2.2663934%;
 	font-family: Arial;
 	font-size: 12px;
 	color:#ffffff;
@@ -375,6 +374,7 @@ left:584px;/*53%*/
 }
 #calender {
 	content: url("../images/calendar.jpg");
+	width:23.770492%;
 }
 #date {
 	position:absolute;
@@ -382,7 +382,8 @@ left:584px;/*53%*/
 	font-size: 13px;
 	color: #f7931e;
 	top:6px;
-	right: 228px;
+	/*right:228px;*/
+	right:23.360656%;
 }
 #nav_button_sign, #nav_button_news, #nav_button_maccabiah{
 	color:#FFFFFF;
@@ -390,68 +391,79 @@ left:584px;/*53%*/
 	position:absolute;
 	font-size: 12px;
 	font-family: Arial;
-	padding: 6px;
+	/*padding: 6px;*/
+	padding:0.614754%;
 	background-color: #f7931e;
-	right:154px;
+	/*right:154px;*/
+	right:15.778689%;
 }
 #nav_button_news {
-	right:79px;
+	/*right:79px;*/
+	right:8.094262%;
 }
 #nav_button_maccabiah {
 	right:1px;
 }
 #forum {
+	/*width:175px;*/
+	width:17.930328%;
 	position:relative;
-	float: left;
+	float:left;
 	background-color:#054e7f;
-	width: 175px;
-	height: 91px;
-	
+	height:91px;
 }
 #forum_icon {
-		position: absolute;
-		content: url("../images/forum_icon.jpg");
-		top: 24px;
-		left: 54px;
+	position:absolute;
+	content:url("../images/forum_icon.jpg");
+	top:24px;
+	/*left:54px;*/
+	left:30.857143%;
 }
 #forum_text {
 	position: absolute;
 	color:#FFFFFF;
-	top: 24px;
-	left: 73px;
+	top:24px;
+	/*left:73px;*/
+	left:41.714286%;
 }
 #flags {
 	position:relative;
 	float:left;
-	width: 775px;
-	height: 64px;
+	/*width:775px;*/
+	width:79.405738%;
+	height:64px;
 }
 #holland,#usa,#israel,#spain{
 	position:absolute;
-	width:46px;
+	/*width:46px;*/
+	width:5.935484%;
 	height:30px;
 }
 #holland {
-	left:270px;
+	/*left:270px;*/
+	left:34.83871%;
 	background: url("../images/holland.jpg") no-repeat;	
 }
 #usa {
-	left: 331px;
+	/*left: 331px;*/
+	left:42.709677%;
 	background: url("../images/usa.jpg") no-repeat;
 }
 #israel {
-	left: 392px;
+	/*left: 392px;*/
+	left:50.580645%;
 	background: url("../images/israel.jpg") no-repeat;
 }
 #spain {
-	left: 453px;
+	/*left: 453px;*/
+	left:58.451613%;
 	background: url("../images/spain.jpg") no-repeat;
 }
 #article_whith_pic1,#article_whith_pic2{
 	height:145px;
-	width:737px;
 	margin-top:33px;
-	padding-left:7px;
+	/*padding-left:7px;*/
+	padding-left:0.903226%;
 	border-bottom:1px solid #d3d3d3;
 	background:url("../images/gardens2.jpg") no-repeat right top;
 	  
@@ -464,7 +476,8 @@ left:584px;/*53%*/
 }
 .sentence2011{
 	line-height:30px;
-	width:247px;
+	/*width:247px;*/
+	width:89.169675%;
 	font:21px arial;
 }
 .country_name {
@@ -552,6 +565,7 @@ left:584px;/*53%*/
 
 
 .article_whith_pic_content{
+	width:68%;
 	margin-top:17px;
 	padding-left:3px;
 	font:14px arial;
@@ -573,16 +587,10 @@ left:584px;/*53%*/
 .clear{
 	clear:both;
 }
-#search_nav ul {
+#search_nav ul,#left_nav ul,#map ul{
 	list-style-type:none;
 }
-#left_nav ul {
-	list-style-type:none;
-}
-#map ul {
-	list-style-type:none;
-}
-
+ 
 
 #fees{ 
 	padding-left:4px;
@@ -765,6 +773,20 @@ li a:hover {
 @media (max-width:590px) {
 	#left_menu {
 		display: none;
+	}
+	#wrapper{
+		width:100%;
+	}
+	#main_section{
+		width:100%;
+	}
+	
+	#people{
+		display:none;
+	}
+	@viewport{
+		width:590px;
+		zoom:1;
 	}
 	
 }
