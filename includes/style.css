@@ -18,9 +18,8 @@ body {
 }
 
 footer {
-	/*width:76.229508%;*/
-	width:774px;
-	right:304px;
+	width:776px;
+	right:261px;
 	background-color:#ffffff;
 	position:fixed;
 	z-index:2;
@@ -205,23 +204,16 @@ textarea{
 	/*margin:0 31px 0 26px;*/
 	margin:0% 3.17623% 0% 2.663934%;
 	float:left;
-	background-color: #FFFFFF;
+	background-color: #054e7f;
 }
 
-#blue_background {
-	background-color: #054e7f;
-	height: 546px;
-}
+
 main{
 	position:relative;
 	float:left;
 	/*width:744px;*/
 	width:76.229508%;
-	min-height:1582px;
-
-}
-#main_section_country {
-	min-height:2127px;
+	/*min-height:1582px;*/
 }
 
 #video{
@@ -289,7 +281,7 @@ main{
 	height: 270px;
 	background-color: #054e7f;
 	position: relative;
-	margin-bottom:32px;
+	border-bottom:32px solid #ffffff;
 }
 
 
@@ -366,8 +358,7 @@ main{
 #azrieli_index {
 	background: url("../images/azrieli.jpg");
 	height: 229px;
-	/*padding-bottom:32px;
-	border-bottom: 1px solid #cdcdcd;*/
+	/*padding-bottom:32px;*/
 }
 
 #maccabi_logo{
@@ -458,19 +449,17 @@ main{
 #nav_button_maccabiah {
 	right:1px;
 }
-#forum, #index_forum {
-	/*width:175px;*/
+#forum{
+	width:175px;
 	/*width:17.930328%;*/
-	position:relative;
+	position:absolute;
+	bottom:0;
 	background-color:#054e7f;
 	height:91px;
-	bottom:-19px;
-	margin-top:60px;
-	border-top:1px solid #cdcdcd;
+	border-top:60px solid #ffffff;
+	
 }
-#index_forum {
-	border-top:1px solid #cdcdcd;
-}
+
 #forum_icon {
 	position:absolute;
 	content:url("../images/forum_icon.jpg");
@@ -493,38 +482,40 @@ main{
 #flags {
 	position:relative;
 	/*width:775px;*/
-	width:79.405738%;
 	height:64px;
-	padding
 }
 #holland,#usa,#israel,#spain{
 	position:absolute;
-	/*width:46px;*/
-	width:7.8443242%;
+	/*width:7.8443242%;*/
+	width:46px;
 	height:30px;
 }
 #holland {
 	/*left:270px;*/
 	left:43.83871%;
+	left:38%;
 	background: url("../images/holland.jpg") no-repeat;	
 }
 #usa {
 	/*left: 331px;*/
 	left:54.709677%;
+	left:46%;
 	background: url("../images/usa.jpg") no-repeat;
 }
 #israel {
 	/*left: 392px;*/
 	left:65.580645%;
+	left:54%;
 	background: url("../images/israel.jpg") no-repeat;
 }
 #spain {
 	/*left: 453px;*/
 	left:76.451613%;
+	left:62%;
 	background: url("../images/spain.jpg") no-repeat;
 }
 #article_whith_pic1,#article_whith_pic2{
-	height:145px;
+	height:130px;
 	margin-top:33px;
 	/*padding-left:7px;*/
 	padding-left:0.903226%;
@@ -533,10 +524,9 @@ main{
 	  
 }
 #article_whith_pic2{
-	height:159px;
+	height:170px;
 	margin-top:16px;
 	background:url("../images/sea.jpg") no-repeat right top;
-	border:none;
 }
 .sentence2011{
 	line-height:30px;
@@ -578,14 +568,12 @@ main{
 
 #low_nav {
 	background-color: #054e7f;
-	width: 692px;
 	height: 27px;
-	position: absolute;
-	bottom: 0px;
-	left: -1px;;
-	padding-left: 83px;
 }
-
+#low_menu{
+	display:inline-block;
+	margin-left:14%;
+}
 #low_menu li a {
 	color: #FFFFFF;
 	font-family: AAA,Arial,Verdana;
@@ -917,7 +905,8 @@ li a:hover {
   width: 100%;
   border: 0;
   }
-  ::-webkit-input-placeholder { /* WebKit browsers */
+
+::-webkit-input-placeholder { /* WebKit browsers */
     color:    #1a1a1a;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */

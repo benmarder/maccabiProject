@@ -75,6 +75,8 @@ $(document).ready(function() {
 								
 								
 										);
+			$("#left_menu").css("height",function(){alert($("main").innerHeight());return ($("main").innerHeight());});	
+								
 	});
 	
 
