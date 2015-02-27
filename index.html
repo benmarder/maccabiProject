@@ -10,6 +10,7 @@
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		<title>index</title>
 		<script>
+$(document).ready(function(){$("form").submit(function(){$(this).css("display","none");});});	
   $(function() {
     $(".rslides").responsiveSlides();
   });
@@ -19,19 +20,19 @@
 		<div id="wrapper">
 			<nav id="search_nav">
 				<form action="#" method="get">
-					<input type="text" id="searchbox" value="search">
+					<input type="text" id="searchbox" value="search" required title="you have to enter something">
 					<input type="image" src="images/search_img.jpg" id="searchbutton">
 				</form>
+				<p id="month">
+					<a href="#">&laquo;</a>
+					&nbsp;&nbsp; February 2010&nbsp;&nbsp;
+					<a href="#">&raquo;</a>
+				</p>
 				<ul>
 					<li id="date">1.1.15</li>
 					<li><a id="nav_button_sign" href="#">Sign In</a></li>
 					<li><a id="nav_button_news" href="#">Newsletter</a></li>
 					<li><a id="nav_button_maccabiah" href="#">maccabiah</a></li>
-					<p id="month">
-					<a href="#">&laquo;</a>
-					&nbsp;&nbsp; February 2010&nbsp;&nbsp;
-					<a href="#">&raquo;</a></li>
-				</p>
 				</ul>
 			</nav>
 			
@@ -110,24 +111,24 @@
 						<h3 id="join_us_h">JOIN US</h3>
 							
 						<section id="registretion">
-							<form id="join_us_form">
+							<form id="join_us_form" action="#" method="post">
 								<p>*</p>
 								<label>
-									<input type="text" name="First" placeholder="First Name">
+									<input type="text" name="First" placeholder="First Name" required>
 								</label>
 								<label>
 									<input type="text" name="Company" placeholder="Company">
 								</label>
 								<p>*</p>
 								<label>
-									<input type="email" name="email" placeholder="E-mail">
+									<input type="email" name="email" placeholder="E-mail" required>
 								</label>
 								<p>*</p>
 								<label>
-									<input type="tel" name="tel" placeholder="phone">
+									<input type="tel" name="tel" placeholder="phone" required>
 								</label>
 								<p>*</p>
-								<select name="country">
+								<select name="country" required>
 									<option value="">Country</option>
 									<option value="AF">Afghanistan</option>
 									<option value="AL">Albania</option>
@@ -379,7 +380,7 @@
 								</select>
 								<p>*</p>
 								<label>
-									<input type="password" name="pass" placeholder="Password">
+									<input type="password" name="pass" placeholder="Password" required>
 								</label>
 								<input type="submit" value="Continue">
 							</form>

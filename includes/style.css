@@ -677,24 +677,26 @@ main{
 li a:hover {
 	opacity:0.4;	
 }
-.event_name {
-	display: inline;
+.event_section h2 {
+	margin-top:20px;
+	display: inline-block;
 	font-family: Arial;
 	font-size: 19px;
 	font-weight: bold;
 }
-.event_date {
+.event_section h3 {
+	opacity:0.7;
 	display: inline;
 	font-family: Arial;
 	font-size: 18px;
 }
-.event_data {
-	position:absolute;
+.event_section p{
+	opacity:0.8;
+	margin-top:10px;
+	line-height:20px;
 	font-family: Arial;
 	font-size: 14px;
-	display: inline;
 	max-width: 495px;
-	top:54px;
 }
 .event_text {
 	padding-top:22px;	
@@ -708,10 +710,10 @@ li a:hover {
 	display:block;
 	position:absolute;
 	background:url("../images/events-garden.jpg") no-repeat;
-	width:204px;
+	width:190px;
 	height:122px;
 	right:0px;
-	bottom:22px;	
+	top:22px;	
 }
 #event_img1 {
 	background:url("../images/events-lagoon.jpg") no-repeat;

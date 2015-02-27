@@ -9,13 +9,13 @@ $(document).ready(function() {
 			$("main").append("<section class='event_section'>"+
 								"<section id="+currentImgId+"></section>"+
 								"<section>"+
-									"<p class='event_name'>"+
+									"<h2>"+
 										data.events[i].eventName+
-									"</p>"+
-									"<p class='event_date'>"
+									"</h2>"+
+									"<h3>&nbsp"
 										+data.events[i].eventDate+
-									"</p><br>"+
-									"<p class='event_data'>"
+									"</h3><br>"+
+									"<p>"
 										+data.events[i].eventDescription+
 									"</p>"+
 								"</section>"+
