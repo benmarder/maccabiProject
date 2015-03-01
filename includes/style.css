@@ -18,9 +18,10 @@ body {
 }
 
 footer{
-	width:776px;
-	right:261px;
-	background-color:#ffffff;
+	width:775px;
+	padding-left:201px;
+	margin:0 auto;
+	background-color:#ffffff 0;
 	position:fixed;
 	z-index:2;
 	bottom:0;
@@ -483,8 +484,8 @@ main{
 }
 
 #flags {
+	background:#ffffff;
 	position:relative;
-	/*width:775px;*/
 	height:64px;
 }
 #holland,#usa,#israel,#spain{
