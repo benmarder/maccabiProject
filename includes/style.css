@@ -19,7 +19,7 @@ body {
 
 footer{
 	width:776px;
-	right:44px;
+	right:261px;
 	background-color:#ffffff;
 	position:fixed;
 	z-index:2;
@@ -882,7 +882,24 @@ and (max-width : 480px) {
 	#calender{
 		display:none;
 	}
-	
+	header{
+		height:137px;
+	}
+	#maccabi_logo{
+		left:7px;
+	}
+	#mbf{
+		left:178px;
+	}
+	#m_head_line{
+		font-size:24px;
+		left:75px;
+	}
+	#head_line{
+		font-size:24px;
+		left:93px;
+		top:89.3px;
+	}
 }
 
 
