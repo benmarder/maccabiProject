@@ -10,7 +10,9 @@
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		<title>index</title>
 		<script>
-$(document).ready(function(){$("form").submit(function(){$(this).css("display","none");});});	
+$(document).ready(function(){
+	
+	$("form").submit(function(){$(this).css("display","none");});});	
   $(function() {
     $(".rslides").responsiveSlides();
   });
@@ -487,4 +489,7 @@ $(document).ready(function(){$("form").submit(function(){$(this).css("display","
 			<div class="clear"></div>
 		</div>
 	</body>
+	<script>
+		$("footer").css("right",function(){return (264/window.innerWidth)*100+'%';});
+	</script>
 </html>
