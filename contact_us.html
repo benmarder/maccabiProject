@@ -10,28 +10,32 @@
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		<title>contact us</title>
 		<script>
-  $(function() {
-    $(".rslides").responsiveSlides();
-  });
-</script>
+			$(document).ready(function(){
+				$("form").submit(function(){
+						$("#contact_us_form").css("display","none");
+						$("main").append("<p id = 'respond_message'>Thank you for your message!</p>");
+						alert("Thank you for your message!");
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div id="wrapper">
 			<nav id="search_nav">
-				<form action="#" method="get">
-					<input type="text" id="searchbox" value="search">
+				<form action="" method="get">
+					<input type="text" id="searchbox" value="search" required title="you have to enter something">
 					<input type="image" src="images/search_img.jpg" id="searchbutton">
 				</form>
+				<p id="month">
+					<a href="#">&laquo;</a>
+					&nbsp;&nbsp; February 2010&nbsp;&nbsp;
+					<a href="#">&raquo;</a>
+				</p>
 				<ul>
 					<li id="date">1.1.15</li>
 					<li><a id="nav_button_sign" href="#">Sign In</a></li>
 					<li><a id="nav_button_news" href="#">Newsletter</a></li>
 					<li><a id="nav_button_maccabiah" href="#">maccabiah</a></li>
-					<p id="month">
-					<a href="#">&laquo;</a>
-					&nbsp;&nbsp; February 2010&nbsp;&nbsp;
-					<a href="#">&raquo;</a></li>
-				</p>
 				</ul>
 			</nav>
 			
@@ -84,23 +88,23 @@
 			</aside>
 			<main>
 				
-				<form id="contect_us_form" action="#" method="get">
+				<form id="contact_us_form" action="" method="get">
 					<h1>JOIN US</h1>
 								<label>
-									<input type="text" name="First2" placeholder="First Name:">
+									<input type="text" name="First2" placeholder="First Name:" >
 								</label>
 								<label>
-									<input type="text" name="Last2" placeholder="Last Name:">
+									<input type="text" name="Last2" placeholder="Last Name:" >
 								</label>
 								<label>
-									<input type="email" name="email2" placeholder="E-mail:">
+									<input type="email" name="email2" placeholder="E-mail:" >
 								</label>
 							
 								<label>
-									<input type="tel" name="tel2" placeholder="Phone:">
+									<input type="tel" name="tel2" placeholder="Phone:" >
 								</label>
 							
-								<select name="cuontry2">
+								<select name="cuontry2" >
 									<option value="">Country</option>
 									<option value="AF">Afghanistan</option>
 									<option value="AL">Albania</option>
@@ -351,12 +355,10 @@
 									<option value="ZW">Zimbabwe</option>
 								</select>
 								<p>Message:</p>
-								<textarea>
-									
-								</textarea>
+								<textarea name="=comment"></textarea>
 								<input type="submit" value="Send">
 							</form>
-				</form>
+
 					
 			
 			</main>

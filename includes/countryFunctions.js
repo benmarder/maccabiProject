@@ -3,23 +3,21 @@ $(document).ready(function() {
 		var currentCountry = data.countries[window.location.search.match(/\d+/)-1];
 			$("main").append("<h1 id='country_h1'>"+currentCountry.home+" PAGE</h1>"+
 							"<section id='main_img_country_section'>"+
-								"<p id='main_country_wellcome'>Welcome to Tafnit Program's 2012</p>"+
-								"<img src='images/country_azrieli.jpg' id='country_main_image'>"+
+								"<p id='main_country_wellcome'>"+data.content.headLine1+"</p>"+
+								"<img src="+data.content.pic1+"id='country_main_image'>"+
 								"<section id='four_element_country'>"+
-									"<img src='images/congress.jpg' id='upper_left'>"+
+									"<img src="+data.content.pic2+"id='upper_left'>"+
 									"<section id='upper_right'>"+
-										"<h2 class='h2_four_element'>Welcome to<br> Tafnit Program's 2011</h2>"+
-										"<p id='four_element_info'>"+
-											"worldwide community of Jewish professionals, business leaders and executives who have a strong desire<br>to connect and executives who have<br>a strong to connect and executives<br>"+
-										"</p>"+ 
+										"<h2 class='h2_four_element'>"+data.content.headLine2+"</h2>"+
+										"<p id='four_element_info'>"
+											+data.content.paragraph+"</p>"+ 
 									"</section>"+
 									"<section id='lower_left'>"+
-										"<h2 class='h2_four_element'>Welcome to<br> Tafnit Program's 2011</h2>"+
+										"<h2 class='h2_four_element'>"+data.content.headLine2+"</h2>"+
 										"<p id='four_element_info'>"+
-											"worldwide community of Jewish professionals, business leaders and executives who have a strong desire to connect and executives who have a strong to connect and executives"+
-										"</p>"+ 
+											data.content.paragraph+"</p>"+ 
 									"</section>"+
-									"<img src='images/azrieli_evening.jpg' id='lower_right'>"+
+									"<img src="+data.content.pic3+"id='lower_right'>"+
 								"</section>"+
 							"</section>"+
 							"<section id='info_with_flag'>"+
@@ -28,54 +26,41 @@ $(document).ready(function() {
 							"</section>"+
 							"<div class='clear'></div>"+
 							"<section id='projects_list_country'>"+
-								"<h1 id='projectList_country_h1'>PROJECTS LIST</h1>"+
+								"<h1 id='projectList_country_h1'>"+data.content.headLine3+"</h1>"+
 							"</section>"+
 							"<section id='people_section'>"+
 							"</section>"			
 			);
 			
-			var projectsListLength = currentCountry.projectsList.length;
+			var projectsListLength = currentCountry.projectsList.length
+				,personsLength=currentCountry.person.length;
 			for (var i=0 ; i<projectsListLength ; i++) {
 				var currentProjectImageUrl = currentCountry.projectsList[i].projectImageUrl;
-				$("#projects_list_country").append("<section class='event_section_country'>"+
+				$("#projects_list_country").append(		"<section id='events_country'>"+
 														"<img src="+currentProjectImageUrl+" id='event_img0'>"+
-														"<section class='event_text'>"+
-															"<p class='event_name'>"+
+															"<h2>"+
 																currentCountry.projectsList[i].projectName+
-															"</p>"+
-															"<p class='event_date'>"+
+															"</h2>"+
+															"<h3>"+
 																currentCountry.projectsList[i].projectDate+
-															"</p><br>"+
-															"<p class='event_data'>"+
+															"<h3><br>"+
+															"<p>"+
 																currentCountry.projectsList[i].projectInfo+
 															"</p>"+
 														"</section>");					
 			}
 			
-			$("#people_section").append("<h1 id='projectList_country_h1'>The M.B.F CORE LEADERSHIP</h1>"+
-										"<section class='initiator'>"+
-											"<img class='people_country1'>"+
-											"<p class='people_name'>INITIATOR<br>Michal Federman</p>"+
-											"<p class='people_info'>This great increase in demand yet again shows the great desire that exists among young Jewish adults to learn</p>"+
-											"<a href='index.html'>Read More</a>"+
-										"</section>"+
-										"<section class='initiator'>"+
-											"<img class='people_country2'>"+
-											"<p class='people_name'>MENTOR<br>Hadar Tamar</p>"+
-											"<p class='people_info'>This great increase in demand yet again shows the great desire that exists among young Jewish adults to learn</p>"+
-											"<a href='index.html'>Read More</a>"+
-										"</section>"+
-										"<section class='initiator'>"+
-											"<img class='people_country3'>"+
-											"<p class='people_name'>ORGANIZER<br>Ofer Miranda</p>"+
-											"<p class='people_info'>This great increase in demand yet again shows the great desire that exists among young Jewish adults to learn</p>"+
-											"<a href='index.html'>Read More</a>"+
-										"</section>"
-								
-								
-								
-										);
-			$("#left_menu").css("height",function(){alert($("main").innerHeight());return ($("main").innerHeight());});	
+				$("#people_section").append("<h1 id='projectList_country_h1'>The M.B.F CORE LEADERSHIP</h1>");
+				for(var i=0;i<personsLength;++i){
+						$("#people_section").append("<section class='initiator'>"+
+							"<img src="+currentCountry.person[i].pic+">"+
+							"<p class='people_name'>"+currentCountry.person[i].name+"</p>"+
+							"<p class='people_info'>"+currentCountry.person[i].info+"</p>"+
+							"<a href='index.html'>Read More</a>"+
+						"</section>"
+					);
+			}							
+			$("#left_menu").css("height",function(){return ($("main").innerHeight());});	
 								
 	});
 	
