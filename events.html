@@ -1,115 +1,145 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="includes/style.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script src="includes/eventsFunctions.js"></script>
-		<link rel="icon" type="image/png" href="images/favicon.png"/>
-		<title>events</title>
-	</head>
-	<body>
-		<div id="wrapper">
-			<nav id="search_nav">
-				<form action="#" method="get">
-					<input type="text" id="searchbox" value="search" required title="you have to enter something">
-					<input type="image" src="images/search_img.jpg" id="searchbutton">
-				</form>
-				<p id="month">
-					<a href="#">&laquo;</a>
-					&nbsp;&nbsp; February 2010&nbsp;&nbsp;
-					<a href="#">&raquo;</a>
-				</p>
-				<ul>
-					<li id="date">1.1.15</li>
-					<li><a id="nav_button_sign" href="#">Sign In</a></li>
-					<li><a id="nav_button_news" href="#">Newsletter</a></li>
-					<li><a id="nav_button_maccabiah" href="#">maccabiah</a></li>
-				</ul>
-			</nav>
-			
-			<header>
-				<img id="calender">
-				<a id="maccabi_logo" href="index.html">
-					</a>
-				<img id="mbf">
-				<p id="m_head_line">m</p><p id="head_line">acabbi world union business forum</p>
-			</header>
-			
-				<aside id="left_menu">
-				<section id="business">
-					<p id="big_t">T</p><p id="the_maccabi">he maccabi business </p><p id="rest_sentence">Forum is dedicated to creating a worldwide community of Jewish 
-						professionals, business leaders and executives who have a strong desire to connect to Israel and to one another. 
-						Operating under the auspices of the
-					</p>
-					<p id="big_read_more"><a href="#">Read More</a></p>
-				</section>
-				<section id="left_nav">
-					<ul id="left_nav_buttons">
-						<li><a href="events.html">Events</a> </li>
-						<li><a href="#">Maccabiah</a> </li>
-						<li><a href="#">Download info </a></li>
-						<li><a href="#">Tafnit</a> </li>
-					</ul>
-				</section>
-				<section id="map">
-					<p id="find_us">WHERE TO FIND US</p>
-					<ul id="countries">
-						<li><a href="#">Israel</a></li>
-						<li><a href="#">U.S.A</a></li>
-						<li><a href="#">Spain</a></li>
-						<li><a href="#">Holland</a></li>
-						<li><a href="#">Israel</a></li>
-						<li><a href="#">U.S.A</a></li>
-						<li><a href="#">Spain</a></li>
-						<li><a href="#">Holland</a></li>
-					</ul>
-				</section>
-				<section id="event_info">
-					<p id="new_event">NEW EVENT</p>
-				</section>
-				<section id="azrieli">
-				</section>
-				<section id="forum">
-					<img id="forum_icon">
-					<a id="forum_text" href="#">forum</a>
-				</section>
-			</aside>
-			<main>
-				<h1 id="events_h1"> EVENTS </h1>
-			</main>
-			<footer>
-				<section id="flags">
-					<section id="holland"> 
-						<a href="country.html?id=1"><p class="country_name"> Holland</p></a>
-					</section>
-					<section id="usa">
-						<a href="country.html?id=2"><p class="country_name"> U.S.A</p></a>
-					</section>
-					<section id="israel">
-						<a href="country.html?id=3"><p class="country_name"> Israel</p></a>
-					</section>
-					<section id="spain">
-						<a href="country.html?id=4"><p class="country_name"> Spain</p></a> 
-					</section>
-				</section>
-				<section id="low_nav">
-					<ul id="low_menu">
-						<li><a href="about-us.html">About us</a></li>
-						<li><a href="#">Prpgrams</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="contact_us.html">Contact Us</a></li>
-						<li><a href="#">Post</a></li>
-						<li><a href="#">Wall</a></li>
-					</ul>
-				</section>
-				<div class="clear">
-				</div>
 
-			</footer>
-			<div class="clear"></div>
-		</div>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="includes/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="includes/eventsFunctions.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>events</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav id="search_nav">
+            <form action="#" method="get">
+                <input type="text" id="searchbox" value="search" required title="you have to enter something">
+                <input type="image" src="images/search_img.jpg" id="searchbutton">
+            </form>
+            <p id="month">
+                <a href="#">&laquo;</a> &nbsp;&nbsp; February 2010&nbsp;&nbsp;
+                <a href="#">&raquo;</a>
+            </p>
+            <ul>
+                <li id="date">1.1.15</li>
+                <li><a id="nav_button_sign" href="#">Sign In</a>
+                </li>
+                <li><a id="nav_button_news" href="#">Newsletter</a>
+                </li>
+                <li><a id="nav_button_maccabiah" href="#">maccabiah</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <img id="calender">
+            <a id="maccabi_logo" href="index.html">
+            </a>
+            <img id="mbf">
+            <p id="m_head_line">m</p>
+            <p id="head_line">acabbi world union business forum</p>
+        </header>
+
+        <aside id="left_menu">
+            <section id="business">
+                <p id="big_t">T</p>
+                <p id="the_maccabi">he maccabi business </p>
+                <p id="rest_sentence">Forum is dedicated to creating a worldwide community of Jewish professionals, business leaders and executives who have a strong desire to connect to Israel and to one another. Operating under the auspices of the
+                </p>
+                <a href="#">Read More</a>
+            </section>
+            <section id="left_nav">
+                <ul id="left_nav_buttons">
+                    <li><a href="events.html">Events</a> </li>
+                    <li><a href="#">Maccabiah</a> </li>
+                    <li><a href="#">Download info </a>
+                    </li>
+                    <li><a href="#">Tafnit</a> </li>
+                </ul>
+            </section>
+            <section id="map">
+                <p id="find_us">WHERE TO FIND US</p>
+                <ul id="countries">
+                    <li><a href="#">Israel</a>
+                    </li>
+                    <li><a href="#">U.S.A</a>
+                    </li>
+                    <li><a href="#">Spain</a>
+                    </li>
+                    <li><a href="#">Holland</a>
+                    </li>
+                    <li><a href="#">Israel</a>
+                    </li>
+                    <li><a href="#">U.S.A</a>
+                    </li>
+                    <li><a href="#">Spain</a>
+                    </li>
+                    <li><a href="#">Holland</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="event_info">
+                <p id="new_event">NEW EVENT</p>
+            </section>
+            <section id="azrieli">
+            </section>
+            <section id="forum">
+                <img id="forum_icon">
+                <a id="forum_text" href="#">forum</a>
+            </section>
+        </aside>
+        <main>
+            <h1 id="events_h1"> EVENTS </h1>
+        </main>
+        <footer>
+            <section id="flags">
+                <section id="holland">
+                    <a href="country.html?id=1">
+                        <p class="country_name"> Holland</p>
+                    </a>
+                </section>
+                <section id="usa">
+                    <a href="country.html?id=2">
+                        <p class="country_name"> U.S.A</p>
+                    </a>
+                </section>
+                <section id="israel">
+                    <a href="country.html?id=3">
+                        <p class="country_name"> Israel</p>
+                    </a>
+                </section>
+                <section id="spain">
+                    <a href="country.html?id=4">
+                        <p class="country_name"> Spain</p>
+                    </a>
+                </section>
+            </section>
+            <section id="low_nav">
+                <ul id="low_menu">
+                    <li><a href="about-us.html">About us</a>
+                    </li>
+                    <li><a href="#">Prpgrams</a>
+                    </li>
+                    <li><a href="#">News</a>
+                    </li>
+                    <li><a href="events.html">Events</a>
+                    </li>
+                    <li><a href="contact_us.html">Contact Us</a>
+                    </li>
+                    <li><a href="#">Post</a>
+                    </li>
+                    <li><a href="#">Wall</a>
+                    </li>
+                </ul>
+            </section>
+            <div class="clear">
+            </div>
+
+        </footer>
+        <div class="clear"></div>
+    </div>
+</body>
+
 </html>
